@@ -1,3 +1,5 @@
+-- Only need to do this locally, not when connected to Heroku (not allowed to create new databases on Heroku:
+-- https://stackoverflow.com/a/37240757/13850343)
 CREATE DATABASE IF NOT EXISTS burgers_db;
 USE burgers_db;
 
